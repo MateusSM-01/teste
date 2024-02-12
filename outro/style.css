@@ -18,11 +18,11 @@ section {
 }
 
 footer {
+    margin-top: 100px;
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -32,17 +32,23 @@ footer {
     height: auto; /* Garante que a altura se ajuste automaticamente */
     max-width: 700px; /* Limita a largura máxima da imagem */
     margin: 0 auto; /* Centraliza a imagem horizontalmente */
-    margin-top: -170px;
-    margin-left: -1200px;
+    margin-top: -160px;
+    margin-left: -900px;
 }
 
 .foto {
     margin-top: -365px;
-    margin-left: -1120px;
+    margin-left: -850px;
+}
+
+#imgcapa{
+    width: 500px; /* largura desejada */
+    height: 300px; /* altura desejada */
+
 }
 
 .textocapa {
-    margin-left: -1200px;
+    margin-left: -900px;
     font-size: 8px;
     margin-top: -146px;
 }
