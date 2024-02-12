@@ -1,0 +1,112 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.retangulo {
+    width: 99,9%;
+    height: 165px;
+    background-color: rgb(5, 5, 160);
+    border: 2px solid rgb(207, 188, 11); /* Amarelo */
+    border-radius: 10px;
+}
+
+.capa{
+    margin-top: -100px;
+    margin-left: 180px;
+}
+
+.telefone-icon {
+    color: rgb(245, 221, 6); /* Amarelo */
+    margin-right: 5px;
+}
+
+.icone{
+    margin-top: 10px;
+    margin-left: 650px;
+}
+
+.h1{
+    color: rgb(207, 188, 11); /* Amarelo */
+    margin-left: 20px;
+    margin-top: -16px;
+    font-size: 16px;
+}
+.relogio {
+    margin-top: -32px;
+    margin-left: 960px;
+    color: rgb(207, 188, 11); /* Amarelo */
+    margin-right: 5px;
+}
+.h2{
+    color: rgb(207, 188, 11); /* Amarelo */
+    margin-left: 30px;
+    margin-top: -28px;
+    font-size: 21px;
+}
+
+.navigation {
+    background-color: rgb(5, 5, 160);
+    color: white;
+    height: 56px;
+
+    animation-name: navegacao;
+    animation-duration: 4s;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.navigation ul {
+    font-size: 18px;
+    list-style: none;
+    margin-top: -7px;
+    padding: 0;
+    height: 56px;
+    margin-left: -250px;
+}
+
+.navigation li {
+ display: inline-block;
+ line-height: 56px;
+ padding-left: 30px;
+ padding-right: 30px;
+ font-weight: 100;
+ font-size: 18px;
+}
+
+.navigation li.threeline-icon {
+    display: none;
+}
+
+.search-box {
+    margin-top: 8px;
+    margin-left: -150px;
+    position: absolute;
+    transform: translateY(-50%);
+    display: flex;
+}
+
+.search-input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+#search-button {
+    background-color: rgb(5, 5, 160);
+    color: #f5dd06;
+    border: 1px solid #f5dd06; /* Amarelo */
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+
+
