@@ -7,6 +7,15 @@ body {
     background-color: #2b2b2b;
     font-family: Montserrat, sans-serif;
 }
+footer {
+    margin-top: 200px;
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
 
 .navigation {
     background-color: #2b2b2b;
