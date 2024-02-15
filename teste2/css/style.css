@@ -4,12 +4,13 @@ html, body {
 }
 
 body {
-    background-color: #2b2b2b;
+    background-color: #0f031d;
     font-family: Montserrat, sans-serif;
 }
 footer {
+    background-color: #0f031d;
+    font-family: Montserrat, sans-serif;
     margin-top: 200px;
-    background-color: #2b2b2b;
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -18,7 +19,7 @@ footer {
 }
 
 .navigation {
-    background-color: #2b2b2b;
+    background-color: #0f031d;
     color: white;
     height: 56px;
 
