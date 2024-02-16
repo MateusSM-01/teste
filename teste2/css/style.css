@@ -64,7 +64,7 @@ footer {
 }
 
 .capa span {
-    color: #f27609;
+    color: #0906bd;
     display: block;
 }
 
@@ -74,7 +74,7 @@ footer {
 }
 
 .profile-pic {
-    width: 39%;
+    width:38%;
     text-align: center;
 
     animation-name: profile-capa;
