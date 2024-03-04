@@ -4,29 +4,32 @@ html, body {
 }
 
 body {
-    background-color: #0f031d;
+    background-color: #f1eff3;
     font-family: Montserrat, sans-serif;
 }
 footer {
-    background-color: #0f031d;
+    background-color: #f1eff3;
     font-family: Montserrat, sans-serif;
     text-align: center;
-    margin-top: 500px;
-    color: #fff;
+    margin-top: 800px;
+    color: #0f031d;
     width: 100%;
+    height: 70px;
+    line-height: 56px;
 }
-
 
 
 .navigation {
     background-color: #0f031d;
     color: white;
-    height: 56px;
+    height: 70px;
     animation-name: navegacao;
     animation-duration: 4s;
 }
 
-
+#nomefooter{
+    margin-top: 10px;
+}
 
 .navigation a {
     color: white;
@@ -42,37 +45,19 @@ footer {
     margin-top: 0;
     padding: 0;
     height: 56px;
-    text-align: right;
+    text-align: center;
 }
 
 .navigation li {
- display: inline-block;
- line-height: 56px;
- padding-left: 30px;
- padding-right: 30px;
- font-weight: 100;
- font-size: 20px;
+    display: inline-block;
+    line-height: 56px;
+    padding-right: 30px;
+    font-weight: 100;
+    font-size: 20px;
 }
-
 .navigation li.threeline-icon {
     display: none;
 }
-
-
-.capa {
-    color: white;
-}
-
-.capa span {
-    color: #0906bd;
-    display: block;
-}
-
-.capa div {
-    display: inline-block;
-    height: 650px;
-}
-
 .profile-pic {
     width:38%;
     text-align: center;
